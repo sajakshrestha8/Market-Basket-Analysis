@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: #e5e5e5;
     margin: 0;
     padding: 0;
@@ -71,4 +73,8 @@ img{
     display: grid;
     grid-template-columns: 0.3fr 1fr;
     gap: 15px;
+}
+
+.data-table{
+    border: 1px solid black;
 }
